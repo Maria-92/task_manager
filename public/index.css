@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+
+ul.ba {
+  list-style-type: none;
+}
+.containerFluid {
+  padding: 7% 7%;
+}
+
+/* COLOR SECTION */
+
+.whiteColor {
+  background-color: #fff;
+}
+.blueColor {
+  background-color: #458ff6;
+}
+.lightBlue {
+  background-color: #f3f7ff;
+}
+.gridColor {
+  background: linear-gradient(to top, #458dfc 0%, #6cbcfc 100%);
+}
+.grayColor {
+  color: #7d7987;
+}
+
+/* Title */
+
+.TaskTitle {
+  font-family: "Mulish", sans-serif;
+  margin: 20px;
+  position: relative;
+  bottom: -90px;
+}
+
+.buttonHeader {
+  border-radius: 20%;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+/* Navbar */
+
+.navItem {
+  padding: 23px;
+}
+.naveLink {
+  margin: 10px;
+}
+.ImgTitle {
+  width: 40rem;
+  position: relative;
+  right: 6rem;
+}
+/* FEATURE SECTION */
+
+.featuresPage {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 2rem;
+}
+
+hr {
+  width: 4rem;
+  margin: auto;
+  position: relative;
+  left: 38rem;
+  border: 2rem solid #1f1534;
+  border-color: #1f1534;
+}
+
+.featureTitle {
+  position: relative;
+  left: 1.2rem;
+}
+.featureGrid {
+  height: 18rem;
+  width: 5rem;
+  border-radius: 10%;
+  background-color: #fff;
+  padding: 2px;
+  margin: 1rem;
+  position: relative;
+  left: 7rem;
+}
+.featureGrid img {
+  float: left;
+}
+
+.featureGrid p {
+  color: #7d7987;
+  font-weight: 100;
+  text-align: left;
+  font-size: 0.8rem;
+}
+.featureP {
+  padding: 7%;
+}
+.des {
+  color: #7d7987;
+  line-height: 2;
+  text-align: center;
+}
+
+/* DownLoad Page */
+
+.DownloadPageP {
+  position: relative;
+  left: 6rem;
+}
+.DownLoadImg {
+  width: 40rem;
+  position: relative;
+  top: -5rem;
+}
+
+/* NAVPAGE SECTION */
+
+.navPage-img {
+  width: 50%;
+  /* margin: 20px; */
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.navPage-h6 {
+  position: relative;
+  float: left;
+  right: 70px;
+  padding-top: 30px;
+  font-weight: 600;
+}
+
+.navPage-h2 {
+  margin: auto;
+  color: #fff;
+  text-align: center;
+}
+
+.navPage-hr {
+  color: #000;
+  position: fixed;
+  left: 2rem;
+  top: -4rem;
+  width: 0.3rem;
+}
+/* //............ */
+.carousel-btn {
+  height: 30px;
+  width: 30px;
+  /* background-color: #bbb;
+ border-radius: 50%; */
+  position: relative;
+  bottom: -50px;
+}
+.carousel-img {
+  width: 9rem;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: relative;
+  top: -7rem;
+  right: 7.2rem;
+}
+.carousel-h6 {
+  position: relative;
+  float: right;
+  right: 19rem;
+  top: -5rem;
+  padding-top: 30px;
+  font-weight: 600;
+  color: #fff;
+  font-weight: 300;
+}
+
+.carousel-h6-1 {
+  position: relative;
+  float: right;
+  right: 12rem;
+  top: -1rem;
+  padding-top: 30px;
+  font-weight: 600;
+  color: #fff;
+  font-weight: 300;
+}
+
+.carousel-h {
+  position: relative;
+  float: right;
+  left: 35rem;
+  top: -13rem;
+  padding-top: 30px;
+  font-weight: 600;
+  /* color: #fff; */
+  font-weight: 300;
+}
+
+.Carousele-h2 {
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -7rem;
+}
+.Chr {
+  color: #fff;
+  border: 2px solid#fff;
+  border-style: solid;
+  position: relative;
+  left: 14rem;
+  top: -7rem;
+}
+.prev {
+  float: left;
+  left: 23rem;
+  color: #458dfc;
+}
+
+.prev:hover {
+  color: #6cbcfc;
+}
+
+.next {
+  float: right;
+  right: 23rem;
+  color: #458dfc;
+}
+.next:hover {
+  color: #6cbcfc;
+}
+
+.carouselBox {
+  border-radius: 30px;
+  height: 20rem;
+  width: 50rem;
+  padding: 9rem;
+  position: relative;
+  left: 17rem;
+}
+
+.carousel-item {
+  height: 350px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+.carouselP {
+  padding: 2rem;
+}
+
+/* LATESR PAGE SECTION */
+
+.card {
+  width: 18rem;
+  border-radius: 2rem;
+  text-shadow: 2rem #7d7987;
+}
+.card img {
+  border-radius: 2rem 2rem 0 0;
+}
+
+.card-body {
+  text-align: left;
+  line-height: 1.7;
+}
+.card-body .card-title {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.card-body .card-text {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #7d7987;
+}
+.card-body .card-readMore {
+  font-size: 0.8rem;
+  color: #458dfc;
+}
+
+.btn .card-btn {
+  margin: auto;
+  text-align: center;
+}
+
+.hr-latestPage {
+  display: block;
+  height: 1rem;
+  border-top: 1px solid #1f1534;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.cardGrid {
+  position: relative;
+  left: 10rem;
+  margin: auto;
+}
+
+/* Leading Page */
+.leadingPageImg {
+  width: 600px;
+  height: 400px;
+}
+.leadingPageText {
+  text-align: left;
+}
+
+.leadingPageText hr {
+  float: left;
+  color: #000;
+  border: solid #000;
+}
+
+/* Subscribe Page */
+.subForm {
+  margin: auto;
+  width: 50%;
+}
+.formGrid {
+  margin: auto;
+  padding: 20px;
+}
+
+/* Footer Page */
+
+.listText {
+  line-height: 1.6;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #fff;
+}
+.listText p {
+  position: relative;
+  top: 15px;
+  text-align: left;
+  padding-left: 9rem;
+}
+
+.copyRight {
+  left: 3rem;
+  line-height: 1.6;
+  font-weight: 300;
+  font-size: 0.6rem;
+  color: #fff;
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1600px;
+  }
+}
